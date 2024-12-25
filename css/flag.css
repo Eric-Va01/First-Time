@@ -1,0 +1,136 @@
+body {
+  background-color: whitesmoke;
+}
+h1 {
+  font-family: cursive;
+  margin: auto;
+  text-align: center;
+}
+.title {
+  font-family: cursive;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.navbar {
+  width: 75%;
+  margin: auto;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  font-family: sans-serif;
+  background-color: #97def8;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(42, 115, 241);
+  margin: auto;
+}
+a:hover {
+  display: inline-block;
+  color: #ffffff;
+  transition: backgroud-color 0.3s, color 0.3s;
+}
+.courses-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+main {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.card {
+  max-width: 250px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card-image {
+  height: 188px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+}
+.card-image img {
+  max-width: 250px;
+  max-height: 250px;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5px;
+}
+.level {
+  font-size: 10px;
+  color: blueviolet;
+  background-color: rgb(230, 139, 255);
+  padding: 5px 5px;
+  border-radius: 5px;
+  width: 50px;
+  text-align: center;
+  margin: 10px 15px;
+}
+svg {
+  margin-right: 20px;
+  width: 20px;
+}
+.card h3 {
+  font-family: sans-serif;
+  margin: 0 15px 15px;
+}
+.txt {
+  font-size: 13px;
+  margin: 0 15px 15px;
+  color: #565454;
+  font-family: sans-serif;
+}
+hr {
+  width: 200px;
+  color: gray;
+}
+.card-footer {
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  color: gray;
+  font-size: 13px;
+  padding: 15px;
+}
+.clock {
+  display: flex;
+}
+.lectures {
+  display: flex;
+}
+.clock svg {
+  fill: rgb(65, 146, 212);
+  margin: 3px;
+}
+.lectures svg {
+  fill: orange;
+  margin: 3px;
+}
+.star {
+  display: flex;
+  margin: 0 15px 10px;
+  gap: 0px;
+}
+.star svg {
+  width: 15px;
+  height: 15px;
+  fill: gold;
+  margin: 2px;
+  display: block;
+}
